@@ -1,0 +1,6 @@
+tweepy
+pandas
+nltk
+gensim
+scikit-learn
+python-dotenv
