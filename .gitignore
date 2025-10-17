@@ -1,2 +1,3 @@
 # Exlcude environment variables file
 .env
+/outputs
