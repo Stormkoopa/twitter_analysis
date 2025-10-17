@@ -9,9 +9,9 @@ Für die Ausführung wird eine aktuelle Python-3-Version benötigt (empfohlen: P
 Vor dem Start muss im Projektverzeichnis eine .env-Datei erstellt werden, die den persönlichen Twitter-Bearer-Token enthält. Dieser wird für die Authentifizierung gegenüber der Twitter-API benötigt und hat folgendes Format:
 TWITTER_BEARER_TOKEN=%YOUR_TWITTER_BEARER_TOKEN%
 
-Das Hauptskript analyze_with_coherence.py kann anschließend über die Kommandozeile gestartet werden. Dabei können optionale Parameter wie die Suchanfrage (--query), die maximale Anzahl der Tweets (--max_tweets), der Ausgabepfad (--out_dir) oder die Wiederverwendung bereits gespeicherter Tweets (--reuse) übergeben werden. Beispiel:
+Das Hauptskript fetch_and_analyze.py kann anschließend über die Kommandozeile gestartet werden. Dabei können optionale Parameter wie die Suchanfrage (--query), die maximale Anzahl der Tweets (--max_tweets), der Ausgabepfad (--out_dir) oder die Wiederverwendung bereits gespeicherter Tweets (--reuse) übergeben werden. Beispiel:
 
-python src/analyze_with_coherence.py --query "(Berlin OR #Berlin) lang:de -is:retweet" --max_tweets 100
+python fetch_and_analyze.py --query "(Berlin OR #Berlin) lang:de -is:retweet" --max_tweets 100
 
 Nach der Ausführung werden die Ergebnisse im angegebenen Ausgabeverzeichnis abgelegt. Dazu gehören unter anderem:
 •	tweets_raw.csv – die rohen, von der API geladenen Tweets
