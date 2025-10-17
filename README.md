@@ -34,7 +34,7 @@ Diese Dateien können im Anschluss zur weiterführenden Analyse, Visualisierung 
 ## Setup
 
 ```bash
-# 1) Umgebung erstellen
+# 1) Virtuelle Umgebung erstellen
 python -m venv .venv
 .venv/bin/activate
 
