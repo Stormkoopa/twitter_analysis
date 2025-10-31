@@ -22,12 +22,12 @@ Das Hauptskript fetch_and_analyze.py kann anschließend über die Kommandozeile 
 python fetch_and_analyze.py --query "(Berlin OR #Berlin) lang:de -is:retweet" --max_tweets 100
 
 Nach der Ausführung werden die Ergebnisse im angegebenen Ausgabeverzeichnis abgelegt. Dazu gehören unter anderem:
-•	tweets_raw.csv – die rohen, von der API geladenen Tweets
-•	tweets_clean.csv – bereinigte und vorverarbeitete Tweet-Texte
-•	hashtags_top.csv – die häufigsten Hashtags
-•	users_top.csv – die aktivsten Nutzer
-•	topics_top.csv – die identifizierten Themen mit ihren Top-Terms
-•	coherence_scores.csv – Übersicht der berechneten Coherence Scores für verschiedene Topic-Zahlen
+-	tweets_raw.csv – die rohen, von der API geladenen Tweets
+-	tweets_clean.csv – bereinigte und vorverarbeitete Tweet-Texte
+-	hashtags_top.csv – die häufigsten Hashtags
+-	users_top.csv – die aktivsten Nutzer
+-	topics_top.csv – die identifizierten Themen mit ihren Top-Terms
+-	coherence_scores.csv – Übersicht der berechneten Coherence Scores für verschiedene Topic-Zahlen
 Diese Dateien können im Anschluss zur weiterführenden Analyse, Visualisierung oder Dokumentation genutzt werden.
 
 
